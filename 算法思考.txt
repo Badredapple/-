@@ -1,0 +1,10 @@
+多源多点最短路径的动态规划算法
+DP_Shortest_Path(G,A)
+	for(m=1;m<n-1;m++)
+		for(i=1;i<=n;i++)
+			for(j=1;j<=n;j++)
+				for(k=1;k<=n;k++)
+					if(dij=dik+akj)
+						dij=dik+akj;
+						
+这个题目后来就划归为Johnson算法,具体去参考Johnson算法
